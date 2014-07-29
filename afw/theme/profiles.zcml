@@ -1,0 +1,14 @@
+<configure
+    xmlns:i18n="http://namespaces.zope.org/i18n"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    i18n_domain="afw.theme">
+
+  <genericsetup:registerProfile
+      name="default"
+      title="Asia Floor Wage Theme"
+      directory="profiles/default"
+      description='Extension profile for the "Asia Floor Wage" Plone theme.'
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      />
+
+</configure>
