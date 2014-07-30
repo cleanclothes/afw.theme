@@ -11,7 +11,7 @@ setup(name='afw.theme',
       classifiers=[
         "Programming Language :: Python",
         "Framework :: Plone",
-        "Framework :: Plone :: 4.2",
+        "Framework :: Plone :: 4.3",
         ],
       keywords='',
       author='Paul Roeland',
