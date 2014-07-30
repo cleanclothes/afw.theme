@@ -8,17 +8,17 @@ Simples Consultoria - www.simplesconsultoria.com.br
 /************** Responsive Diazo Magic ************************/
 
 /* Background images */
-body {background: #ffffff;}
+body {background: #ffff00;}
 
 /* Colors and fonts */
-body {color: #000000; font-family: Arial, Helvetica, sans-serif; font-size: 100%;}
+body {color: #000000; font-family: "Roboto", Arial, Helvetica, sans-serif; font-size: 100%; font-weight:300;}
 a:link, a:visited, #content a:link, dl.portlet a:link {color:#000;}
 a:hover {color:#000;}
-h1, h2, h3, h4, h5, h6 {font-family: Arial, Helvetica, sans-serif;}
-h1 {color: #205C90;}
+h1, h2, h3, h4, h5, h6 {font-family: "Roboto", Arial, Helvetica, sans-serif; font-weight:500;}
+h1 {color: #005299;}
 h2, h3, h4, h5, h6 {color: #636466;}
 .wrapper { width:auto; margin: 0 auto; max-width: 1280px;}
-#main {background:#fff; font-size: 1.3em; padding: 1em 0;}
+#main {background:#ffff00; font-size: 1.3em; padding: 1em 0;}
 
 #nav {background: black;	text-align: left; color: #ffffff;}
 #nav a {color: #ffffff;}
@@ -42,7 +42,7 @@ margin-top: 0.1em;
 
 /****************** Basic Stuff ***********************/
 
-#content {font-size: 100%;}
+#content {font-size: 110%;}
 p {line-height: 1.8em; margin: 0 0 1em 0;}
 h1, h2, h3 {margin: 0.5em 0 0.5em;}
 .hidden {display: none;} 

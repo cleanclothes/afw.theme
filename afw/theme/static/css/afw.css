@@ -1,15 +1,15 @@
 body
 {
     line-height: 180%;
+    background-color: #FFFF00;
 }
 
 #payoff
 {
     float: right;
     font-size: 200%;
-    font-weight: 900;
-    letter-spacing: 0.05em;
-    font-family: "Lato", Arial,Helvetica,sans-serif;
+    font-weight: 500;
+    font-family: "Roboto", Arial,Helvetica,sans-serif;
     position: absolute; right: 1em; bottom: 25px;
 }
 
@@ -39,7 +39,7 @@ div.position-1\:4 {
 #nav
 {
     font-size: 140%;
-    background-color: black;
+    background-color: #005299;
     font-weight: bold;
 }
 
@@ -53,7 +53,7 @@ div.position-1\:4 {
     font-size: 110%;
     margin-left: 1.9em;
     margin-right: 1.5em;
-    border-bottom: 5px solid black;
+    border-bottom: 5px solid #005299;
     padding-top: 1.5em;
     padding-bottom: 0.8em;
 }
@@ -65,7 +65,7 @@ div.position-1\:4 {
 
 #breadcrumbs-current
 {
-    color: #D40E16;
+    color: #005299;
 }
 
 .documentActions
@@ -189,7 +189,8 @@ dl.portlet li:last-child
 }
 #content .documentDescription
 {
-	font: bold 1.25em/1.4em Arial,Helvetica,sans-serif;
+	font: 1.1em/1.2em "Roboto", Arial,Helvetica,sans-serif;
+    font-weight: 500;
 	color: black;
 	margin-bottom: 1em;
 }
@@ -198,20 +199,18 @@ dl.portlet li:last-child
 {
     font-size: 246.2%;
     line-height: 120%;
-    font-weight: 900;
-    letter-spacing: 0.05em;
-    font-family: "Lato", Arial,Helvetica,sans-serif;
-	color: #D40E16;
+    font-weight: 500;
+    font-family: "Roboto", Arial,Helvetica,sans-serif;
+	color: #005299;
 }
 
 #content h1
 {
     font-size: 170%;
     line-height: 120%;
-    font-weight: 900;
-    letter-spacing: 0.05em;
-    font-family: "Lato", Arial,Helvetica,sans-serif;
-    color: #D40E16;
+    font-weight: 500;
+    font-family: "Roboto", Arial,Helvetica,sans-serif;
+    color: #005299;
 }
 
 #content h2
@@ -219,10 +218,9 @@ dl.portlet li:last-child
     font-size: 124%;
     line-height: 110%;
     line-height: 170%;
-    font-weight: 900;
-    letter-spacing: 0.05em;
-    font-family: "Lato", Arial,Helvetica,sans-serif;
-    color: #D40E16;
+    font-weight: 500;
+    font-family: "Roboto", Arial,Helvetica,sans-serif;
+    color: #005299;
 }
 
 #content h3
@@ -231,15 +229,14 @@ dl.portlet li:last-child
     line-height: 110%;
     font-weight: bold;
     font-family: Arial,Helvetica,sans-serif;
-    color: #D40E16;
+    color: #005299;
 }
 
 #content h1 a:link, #content h1 a:visited
 {
-    font-weight: 900;
-    letter-spacing: 0.05em;
-    font-family: "Lato", Arial,Helvetica,sans-serif;
-	color: #D40E16;
+    font-weight: 500;
+    font-family: "Roboto", Arial,Helvetica,sans-serif;
+	color: #005299;
 	border-bottom: none;
 }
 
@@ -254,7 +251,7 @@ dl.portlet li:last-child
     border-radius:0;
     color: black;
     padding: 0.25em 0em;
-    border-bottom: 0.1em solid #D40E16;
+    border-bottom: 0.1em solid #005299;
 }
 #category a.link-category:hover {
     background: none;
@@ -265,17 +262,17 @@ dl.portlet li:last-child
     display: none;
 }
 #content h2 > a:link , #content h2 > a:visited{
-    font-weight:900;
-    color: #D40E16;
+    font-weight:500;
+    color: #005299;
 }
 
 #content a:link, dl.portlet a:link {
-	border-bottom: 0.1em solid #D40E16;
+	border-bottom: 0.1em solid #005299;
 	font-weight: bold;
 	color: black;
 }
 #content a:visited, dl.portlet a:visited {
-	border-bottom: 0.1em solid #D40E16;
+	border-bottom: 0.1em solid #005299;
 	font-weight: bold;
 	color: black;
 }
@@ -347,7 +344,7 @@ dl.portlet li:last-child
 #relatedItemBox dt
 {
     font-size: 150%;
-    color: #D40E16;
+    color: #005299;
     margin-bottom: 0.5em;
 }
 
@@ -358,7 +355,7 @@ dl.portlet li:last-child
 
 #doormat-wrapper
 {
-    background-color: black;
+    background-color: #005299;
     font-size: 110%;
     line-height: 2em;
 }
@@ -373,8 +370,8 @@ dl.portlet li:last-child
 #doormat #c-doormat-sitemap dt
 {
     color: #FFFFFF;
-    font-family: "Lato", Arial,Helvetica,sans-serif;
-    font-weight: 900;
+    font-family: "Roboto", Arial,Helvetica,sans-serif;
+    font-weight: 500;
 }
 p {
     line-height: 1.6em;
@@ -386,7 +383,6 @@ p {
     float: right;
     font-size: 1.2em;
     font-weight: normal;
-    letter-spacing: 0em!important;
     line-height: 1.5em;
     margin: 0 1em 0.5em 0.5em;
     width: 35%;
@@ -405,3 +401,8 @@ p {
     display:none;
 }
 
+#content .discreet, #sidebar .discreet {
+    color: #333;
+    font-size: 85%;
+    font-weight: 300;
+}
