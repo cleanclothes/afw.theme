@@ -1,7 +1,7 @@
 body
 {
     line-height: 180%;
-    background-color: #FFFF00;
+    background-color: #FFF;
 }
 
 #payoff
@@ -21,7 +21,7 @@ body
 
 #sections-wrapper
 {
-    background-color: black;
+    background-color: transparent;
     color: white;
 }
 

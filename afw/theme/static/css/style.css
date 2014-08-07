@@ -8,19 +8,19 @@ Simples Consultoria - www.simplesconsultoria.com.br
 /************** Responsive Diazo Magic ************************/
 
 /* Background images */
-body {background: #ffff00;}
+body {background: #ffffff;}
 
 /* Colors and fonts */
 body {color: #000000; font-family: "Roboto", Arial, Helvetica, sans-serif; font-size: 100%; font-weight:300;}
-a:link, a:visited, #content a:link, dl.portlet a:link {color:#000;}
+a:link, a:visited, #content a:link, dl.portlet a:link {color:purple;}
 a:hover {color:#000;}
 h1, h2, h3, h4, h5, h6 {font-family: "Roboto", Arial, Helvetica, sans-serif; font-weight:500;}
 h1 {color: #005299;}
 h2, h3, h4, h5, h6 {color: #636466;}
 .wrapper { width:auto; margin: 0 auto; max-width: 1280px;}
-#main {background:#ffff00; font-size: 1.3em; padding: 1em 0;}
+#main {background:#FFF; font-size: 1.3em; padding: 1em 0;}
 
-#nav {background: black;	text-align: left; color: #ffffff;}
+#nav {background: #005299;	text-align: left; color: #ffffff;}
 #nav a {color: #ffffff;}
 #nav a:hover, #nav li.selected a {padding-top: 1em;background: transparent;}
 
@@ -53,10 +53,13 @@ div.overlay-iframe, div.overlay-ajax {left:11%!Important; width:75%;}
 .portlet img, #content img {max-width:100%;}
 
 /*header*/
-#header {background-size:100% auto;	position:relative;}
+#header {background-size:100% auto;	position:relative; background-color: #fff;color:purple;}
 #logo {padding-bottom: 10px;float: left;}
 #logo img {max-width:100%;}
 #logo a {display:block; width:100%;}
+#demands {padding-bottom: 10px;float: left; margin-left: 3em;}
+#demands img {max-width:100%;}
+#demands a {display:block; width:100%;}
 #portal-personaltools {font-size: 1.1em;}
 
 /* navigation */
