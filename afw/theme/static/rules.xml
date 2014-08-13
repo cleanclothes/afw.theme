@@ -26,7 +26,7 @@
     <drop css:content="#portal-breadcrumbs" />
 
     <!--Document Actions-->
-    <before method="raw" css:theme="div#payoff" css:content="div.documentActions" />
+
     <drop css:content=".documentActions" />
 
     <!--Search Box-->
@@ -39,7 +39,7 @@
     <replace css:content="#portal-columns" css:theme="#content" />
 
     <!--doormat-->
-    <replace css:theme="div#doormat div" css:content="div#c-doormat-sitemap" />
+    <!--<replace css:theme="div#doormat div" css:content="div#c-doormat-sitemap" />-->
 
     <!--Viewlets-->
     <replace css:content="#portal-personaltools" css:theme="#user" />

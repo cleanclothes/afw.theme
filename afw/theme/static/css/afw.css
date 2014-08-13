@@ -98,14 +98,32 @@ h1 {color: #005299;}
 }
 
 
-#doormat #c-doormat-sitemap dt
+#doormat li
 {
     font-family: "Roboto", Arial,Helvetica,sans-serif;
     font-weight: 500;
+    margin-right: 2em;
 }
 
 #content .discreet, #sidebar .discreet {
     color: #333;
     font-size: 85%;
     font-weight: 300;
+}
+#content .tileItem {
+    border-top: 1px solid purple;
+    padding-top: 1em;
+}
+#content .pullquote {
+    font-weight: 300;
+    font-family: "Roboto", Arial,Helvetica,sans-serif;
+    color: #00B7A9;
+    clear: right;
+    float: right;
+    font-size: 1.1em;
+    line-height: 1.5em;
+    margin: 0 1em 20px 0.5em;
+    min-height: 20px;
+    padding: 19px;
+    width: 35%;
 }
