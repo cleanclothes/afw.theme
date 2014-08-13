@@ -117,7 +117,7 @@ h1 {color: #005299;}
 #content .pullquote {
     font-weight: 300;
     font-family: "Roboto", Arial,Helvetica,sans-serif;
-    color: #00B7A9;
+    color: #0AA48F;
     clear: right;
     float: right;
     font-size: 1.1em;
@@ -126,4 +126,10 @@ h1 {color: #005299;}
     min-height: 20px;
     padding: 19px;
     width: 35%;
+}
+#content .tile .image-inline {
+    float: none;
+}
+#content a:link, dl.portlet a:link{
+    font-weight: 300;
 }
