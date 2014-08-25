@@ -2,7 +2,6 @@ body {font-family: "Roboto", Arial, Helvetica, sans-serif; font-weight:300; back
 a:link, a:visited, #content a:link, dl.portlet a:link {color:purple;}
 h1, h2, h3, h4, h5, h6 {font-family: "Roboto", Arial, Helvetica, sans-serif; font-weight:500;}
 h1 {color: #005299;}
-#nav {background: #005299;}
 #content {font-size: 110%;}
 #header {background-color: #fff;}
 #demands {padding-bottom: 10px;float: left; margin-left: 3em;}
@@ -21,6 +20,7 @@ h1 {color: #005299;}
 #nav
 {
     background-color: #005299;
+    font-weight: 500;
 }
 #portal-breadcrumbs
 {
@@ -74,6 +74,9 @@ h1 {color: #005299;}
 
 #category a.link-category, span.selectedTag {
     border-bottom: 0.1em solid #005299;
+}
+#category a.link-category:hover {
+    text-decoration: none;
 }
 #content h2 > a:link , #content h2 > a:visited{
     font-weight:500;
@@ -132,4 +135,8 @@ h1 {color: #005299;}
 }
 #content a:link, dl.portlet a:link{
     font-weight: 300;
+}
+.nodescription .galleria-info{display: none;}
+b, strong {
+    font-weight: 500;
 }
